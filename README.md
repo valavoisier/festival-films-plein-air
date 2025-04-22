@@ -1,6 +1,6 @@
-# Simple Website
+# Projet 3 de la formation Développeur d'application PHP Symfony OpenClassrooms
 
-Ce projet est un site web simple qui comprend une page principale et des styles CSS.
+## Sujet
 
 ## Structure du projet
 
@@ -9,19 +9,21 @@ simple-website
 ├── index.html
 ├── styles
 │   └── style.css
+│   └── index.css
 └── README.md
 ```
 
 ## Fichiers
 
-- **index.html** : La page principale du site web, contenant la structure HTML de base.
-- **styles/style.css** : Fichier CSS pour définir l'apparence des éléments HTML.
+- **index.html** : La page d'accueil du site web, contenant toutes les information sur le festival.
+- **styles/style.css** : Fichier CSS pour définir l'apparence générale du site header footer et menus.
+- **styles/index.css** : Fichier CSS pour définir l'apparence des sections de la page d'accueil.
 
 ## Instructions
 
 1. Clonez le dépôt ou téléchargez les fichiers.
 2. Ouvrez `index.html` dans un navigateur pour visualiser le site.
-3. Modifiez `styles/style.css` pour personnaliser l'apparence du site.
+3. Modifiez `styles/style.css` et `styles/index.css` pour personnaliser l'apparence du site.
 
 ## Technologies utilisées
 
@@ -30,5 +32,5 @@ simple-website
 
 ## Fonctionnalités
 
-- Page principale avec une structure HTML de base.
-- Styles personnalisables via le fichier CSS.
+- Pages avec structure HTML.
+- Styles personnalisables via les fichiers CSS.
