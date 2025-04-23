@@ -1,0 +1,114 @@
+
+body {
+  background-image: url('/images/fond-bleu.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+h2{
+  margin-top: 40px;
+  color: #fff;
+}
+
+.movie-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid #0F6F9F;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 800px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #e3f2fd, #fff);
+  }
+  
+  .poster {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #004aad; /* Bleu cobalt profond */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .director-year {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .synopsis {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .date-time {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .reserve-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #00bfff, #001f54); /* Dégradé bleu clair profond (#4682b4) vers bleu nuit (#001f54) */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .reserve-btn:hover {
+    background: linear-gradient(to right, #1ec8ff, #001640); /* Dégradé ajusté au survol avec une variante de bleu clair et un bleu nuit plus intense */
+  }
+ @media screen and (max-width: 768px) {
+  .movie-card {
+    flex-direction: column; /* Empile les éléments */
+    align-items: center;
+    width: 100%; /* Utilise toute la largeur */
+    max-width: 600px; /* Limite la taille sur mobile */
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+  .poster {
+    width: 100%; /* L'affiche prend toute la largeur de la carte */
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0; /* Arrondi en haut uniquement */
+  }
+
+  .details {
+    width: 100%; /* Détails occupent toute la largeur sous l’affiche */
+    padding: 20px;
+    text-align: center; /* Centre le texte pour plus d'harmonie */
+  }
+
+  .title {
+    font-size: 22px; /* Ajustement de la taille pour meilleure lisibilité */
+  }
+
+  .reserve-btn {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 15px;
+  }
+  h2 {
+    margin-top: 25px;
+    color: #fff;
+}
+}
