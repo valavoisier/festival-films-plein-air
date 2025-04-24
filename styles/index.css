@@ -50,24 +50,6 @@
   margin: 0;
 }
 
-.hero-content a {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 50px; /* Boutons très ronds */
-  background: linear-gradient(to right, #00bfff, #001f54);
-  font-size: 1em;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.hero-content a:hover {
-  background: linear-gradient(to right, #1ec8ff, #001640);
-  transform: scale(1.05);
-}
-
-
 /*--------------------------------------------------*/  
 /* SECTION FILMS À L'AFFICHE */
 .films {
