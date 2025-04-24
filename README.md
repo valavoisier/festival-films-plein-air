@@ -44,6 +44,8 @@ festival-films-plein-air
 - **index.html** : La page d'accueil du site web, contenant toutes les information sur le festival.
 - **styles/style.css** : Fichier CSS pour définir l'apparence générale du site header footer et menus.
 - **styles/index.css** : Fichier CSS pour définir l'apparence des sections de la page d'accueil.
+- **styles/programme.css** : Fichier CSS pour définir l'apparence de la page programme.
+- **styles/single.css** : Fichier CSS pour définir l'apparence des pages de chaque film.
 
 ## Instructions
 
