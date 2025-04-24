@@ -16,11 +16,26 @@ Vous devrez ensuite réaliser une première maquette de ce site correspondant à
 ## Structure du projet
 
 ```
-simple-website
+festival-films-plein-air
 ├── index.html
+├── programme.html
+├── 12th-assistant-deacon.html
+├── dead-man.html
+├── enemy.html
+├── enter-the-void.html
+├── holy-motors.html
+├── into-wild.html
+├── melancholia.html
+├── mulholland-drive.html
+├── realite.html
+├── valhalla-rising.html
+├── vie-belle.html
+├── vol-coucou.html
 ├── styles
 │   └── style.css
 │   └── index.css
+│   └── programme.css
+│   └── single.css
 └── README.md
 ```
 
