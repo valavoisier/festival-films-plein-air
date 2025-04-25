@@ -16,11 +16,26 @@ Vous devrez ensuite réaliser une première maquette de ce site correspondant à
 ## Structure du projet
 
 ```
-simple-website
+festival-films-plein-air
 ├── index.html
+├── programme.html
+├── 12th-assistant-deacon.html
+├── dead-man.html
+├── enemy.html
+├── enter-the-void.html
+├── holy-motors.html
+├── into-wild.html
+├── melancholia.html
+├── mulholland-drive.html
+├── realite.html
+├── valhalla-rising.html
+├── vie-belle.html
+├── vol-coucou.html
 ├── styles
 │   └── style.css
 │   └── index.css
+│   └── programme.css
+│   └── single.css
 └── README.md
 ```
 
@@ -29,6 +44,8 @@ simple-website
 - **index.html** : La page d'accueil du site web, contenant toutes les information sur le festival.
 - **styles/style.css** : Fichier CSS pour définir l'apparence générale du site header footer et menus.
 - **styles/index.css** : Fichier CSS pour définir l'apparence des sections de la page d'accueil.
+- **styles/programme.css** : Fichier CSS pour définir l'apparence de la page programme.
+- **styles/single.css** : Fichier CSS pour définir l'apparence des pages de chaque film.
 
 ## Instructions
 
