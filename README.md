@@ -19,24 +19,29 @@ Vous devrez ensuite réaliser une première maquette de ce site correspondant à
 festival-films-plein-air
 ├── index.html
 ├── programme.html
+│   └── dead-man.html
+│   └── enemy.html
+│   └── vol-coucou.html
+│   └── valhalla-rising.html
+│   └── vie-belle.html
+│   └── melancholia.html
+│   └── realite.html
+│   └── holy-motors.html
+│   └── into-wild.html
+│   └── mulholland-drive.html
+│   └── 12th-assistant-deacon.html
+│   └── enter-the-void.html
 ├── actualites.html
-├── 12th-assistant-deacon.html
-├── dead-man.html
-├── enemy.html
-├── enter-the-void.html
-├── holy-motors.html
-├── into-wild.html
-├── melancholia.html
-├── mulholland-drive.html
-├── realite.html
-├── valhalla-rising.html
-├── vie-belle.html
-├── vol-coucou.html
+├── contact.html
+├── mention-legales.html
 ├── styles
 │   └── style.css
 │   └── index.css
 │   └── programme.css
 │   └── single.css
+│   └── contact.css
+│   └── mentions-legales.css
+
 └── README.md
 ```
 
@@ -47,6 +52,8 @@ festival-films-plein-air
 - **styles/index.css** : Fichier CSS pour définir l'apparence des sections de la page d'accueil.
 - **styles/programme.css** : Fichier CSS pour définir l'apparence de la page programme et de la page actualités.
 - **styles/single.css** : Fichier CSS pour définir l'apparence des pages de chaque film.
+- **styles/contact.css** : Fichier CSS pour définir l'apparence de la page contact.
+- **styles/mentions-legales.css** : Fichier CSS pour définir l'apparence de la page des mentions légales.
 
 ## Instructions
 
