@@ -86,6 +86,75 @@ h2{
   .reserve-btn:hover {
     background: linear-gradient(to right, #1ec8ff, #001640); /* Dégradé ajusté au survol avec une variante de bleu clair et un bleu nuit plus intense */
   }
+  /*---------------NEWSLETTER /actualités--------------*/
+  /* SECTION NEWSLETTER (même style que Inscription) */
+.inscription {
+  padding: 40px 20px;
+  background-color: #EDF7FF; /* Fond clair */
+}
+
+.container-inscription {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inscription h2 {
+  font-size: 2.25em;
+  color: #001f54; /* Bleu profond */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inscription p {
+  font-size: 1.125em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Style du formulaire */
+.form-inscription {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1em;
+  color: #666;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Bouton de validation */
+.btn-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to right, #00bfff, #001f54);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(to right, #1ec8ff, #001640);
+  transform: scale(1.05);
+}
+
+
+  /*------------------newsletter fin-------------------------------*/
+  
   @media screen and (max-width: 768px) {
     main {
       display: flex;
@@ -139,6 +208,17 @@ h2{
       max-width: 250px;
       margin: 15px auto;
       text-align: center;
+    }
+    /*----------actualités--------------*/
+    .inscription {
+      width: 90%;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
     }
   }
   

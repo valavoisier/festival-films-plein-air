@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualités - Festival Les Films de Plein Air</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/programme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo Festival les Films de Plein Air">
+        </div>
+    
+        <nav class="principal">
+          <a href="index.html" class="nav-btn">Accueil</a>
+          <a href="programme.html" class="nav-btn">Programme</a>
+          <a href="actualites.html" class="nav-btn">Actualités</a>
+          <a href="contact.html" class="nav-btn">Contact</a>
+        </nav>
+    
+        <!-- Menu hamburger -->
+        <nav>
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+    
+            <ul id="menu">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="programme.html">Programme</a></li>
+              <li><a href="actualites.html">Actualités</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+  <main>
+    <h2>Actualités du Festival</h2>
+
+    <div class="movie-card">
+      <img src="images/la_belle_et_la_bete.webp" alt="Affiche du film La Belle et la Bête" class="poster">
+      <div class="details">
+        <h3 class="title">Projection scolaire de La Belle et la Bête</h3>
+        <p class="director-year">Projection spéciale | Écoles primaires et collèges</p>
+        <Le class="synopsis">Le festival des films de plein air prévoit une projection du film <strong>la belle et la bête réalisé par christophe Gans</strong> avec Vincent Cassel, Léa Seydoux et André Dussollier dans les rôles principaux. Cette séance, organisée à la prochaine rentrée scolaire, est destinée aux établissements du <strong>8ᵉ arrondissement de Paris</strong> et sera accompagnée de <strong>projets pédagogiques</strong> adaptés aux différents niveaux scolaires.</p>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="images/festival_amenagement.webp" alt="Chaises longues et aménagement du festival" class="poster">
+      <div class="details">
+        <h3 class="title">Un festival mieux équipé grâce à une subvention</h3>
+        <p class="director-year">Amélioration du confort | Équipements supplémentaires</p>
+        <p class="synopsis">L’association a reçu une <strong>subvention de la région Ile de France</strong> pour l’achat de <strong>d'une centaine de chaises longues</strong> et de hauts vents pour la protection éventuelle des spectateurs.</p>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="images/chez_paul_stand.webp" alt="Stand de la brasserie Chez Paul" class="poster">
+      <div class="details">
+        <h3 class="title">"Chez Paul" - Partenariat </h3>
+        <p class="director-year">Restauration sur place | Entractes du festival</p>
+        <p class="synopsis">Le festival s’associe à l'établissement <strong>Chez Paul</strong>, qui assurera un stand de <strong>restauration</strong> avec sandwichs, vienoiseries, glaces et boissons sans alcool pendant les entractes.</p>
+      </div>
+    </div>
+    <section class="inscription">
+      <div class="container-inscription">
+        <h2>📩 Inscrivez-vous à notre newsletter</h2>
+        <p>Recevez les dernières informations sur le festival, les projections à venir et les nouveautés directement dans votre boîte mail.</p>
+    
+        <form action="#" method="post" class="form-inscription">
+          <!-- Champ pour le nom -->
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+    
+          <!-- Champ pour l'email -->
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+    
+          <!-- Bouton de validation -->
+          <button type="submit" class="btn-submit">S'inscrire</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="index.html">
+      <img src="images/logo.png" alt="Logo Festival Les Films de Plein Air">
+    </a>
+    <div>
+      <a href="politique-de-confidentialite.html">Politique de Confidentialité</a><br>
+      <a href="mentions-legales.html">Mentions Légales</a>
+    </div>
+    <p>&copy; 2025 Festival Les Films de Plein Air</p>
+  </footer>
+</body>
+
+</html>
