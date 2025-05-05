@@ -63,6 +63,7 @@ festival-films-plein-air
 - **styles/single.css** : Fichier CSS pour définir l'apparence des pages de chaque film.
 - **styles/contact.css** : Fichier CSS pour définir l'apparence de la page contact.
 - **styles/mentions-legales.css** : Fichier CSS pour définir l'apparence de la page des mentions légales.
+- **livrables/cahier-des-charges.pdf
 
 ## Instructions
 
