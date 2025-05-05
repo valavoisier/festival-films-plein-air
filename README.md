@@ -42,6 +42,14 @@ festival-films-plein-air
 │   └── single.css
 │   └── contact.css
 │   └── mentions-legales.css
+├── images
+│   └── images films et fonds d'écran
+
+├── livrables
+│   └── cahier-des-charges.pdf
+│   └── logo.png
+│   └── favicon.png
+│   └── favicon.ico
 
 └── README.md
 ```
